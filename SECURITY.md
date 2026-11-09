@@ -11,7 +11,7 @@ preview output; never put private artifacts in a public asset directory.
 
 Please report security issues **privately** — do not open a public issue for anything exploitable.
 
-- Use GitHub's [private vulnerability reporting](https://github.com/bilawalsidhu/gods-eye-view/security/advisories/new) (Security tab → "Report a vulnerability"), or
+- Use GitHub's [private vulnerability reporting](https://github.com/Shekhar/gods-eye-view/security/advisories/new) (Security tab → "Report a vulnerability"), or
 - Reach the maintainer directly via the contact on the GitHub profile.
 
 Include repro steps and impact. We'll acknowledge, investigate, and credit you (if you'd like) once a fix ships.

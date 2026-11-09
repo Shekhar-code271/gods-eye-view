@@ -9,7 +9,7 @@ Prefer 24.22.1 or later: earlier releases lack the October 21, 2026 security
 fixes, including CVE-2026-111497 (a Brotli decoder flaw).
 
 ```bash
-git clone https://github.com/bilawalsidhu/gods-eye-view.git
+git clone https://github.com/Shekhar/gods-eye-view.git
 cd gods-eye-view
 nvm install 24.22.2
 nvm use 24.22.2
@@ -261,7 +261,7 @@ Maintainers may hold a layer PR until all four are there.
 
 ## Maintainers
 
-God's Eye View is maintained by [Bilawal Sidhu](https://github.com/bilawalsidhu)
+God's Eye View is maintained by [Bilawal Sidhu](https://github.com/Shekhar)
 and [Sameh Khamis](https://github.com/samehkhamis) at
 [Halfpixel](https://halfpixel.ai). Either maintainer can review and merge
 contributions.

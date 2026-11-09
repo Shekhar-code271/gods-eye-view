@@ -1,7 +1,7 @@
 - Add source-backed voice outlines without public Overpass calls: bundled Census and
   Who's On First boundaries cover places and neighborhoods, OpenFreeMap tiles
   cover streets, buildings, and grounds, and guarded Nominatim lookup handles
-  remaining named areas with bounded caching and usage limits (bilawalsidhu,
+  remaining named areas with bounded caching and usage limits (Shekhar,
   #842).
 - Preserve standalone server-token maps, project tile outlines only on demand,
   select building components with their holes independently, preserve non-Latin

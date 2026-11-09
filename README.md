@@ -2,7 +2,7 @@
 
 # 🌐 God's Eye View
 
-[![CI](https://github.com/bilawalsidhu/gods-eye-view/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/bilawalsidhu/gods-eye-view/actions/workflows/ci.yml) [![Reached #1 on GitHub Trending](https://img.shields.io/badge/%231_GitHub_Trending-thank_you!-F0A63C?style=flat-square&logo=github)](https://x.com/bilawalsidhu/status/2093798887815348521)
+[![CI](https://github.com/Shekhar/gods-eye-view/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Shekhar/gods-eye-view/actions/workflows/ci.yml) [![Reached #1 on GitHub Trending](https://img.shields.io/badge/%231_GitHub_Trending-thank_you!-F0A63C?style=flat-square&logo=github)](https://x.com/Shekhar/status/2093798887815348521)
 
 ### A spy-satellite simulator in your browser — then you realize the sources are public and the data is real.
 
@@ -12,7 +12,7 @@ _No place left behind._
 
 ![Orbital HUD, a tracked live globe, FLIR terrain — then OPEN SOURCED](docs/media/hero-open-source-reveal.gif)
 
-<a href="https://www.youtube.com/@bilawalsidhu">
+<a href="https://www.youtube.com/@Shekhar">
   <img src="docs/media/youtube-popular-videos.png" alt="The God's Eye View video series on YouTube" width="100%">
 </a>
 
@@ -24,7 +24,7 @@ _No place left behind._
 
 _“pretty cool”_ — [Brendan Eich](https://x.com/BrendanEich/status/2094592096401490266), creator of JavaScript and co-founder of Mozilla and Brave · Featured on **[Pinokio](https://pinokio.co/posts/01m1m4p9xxm3qw7dnnpj2wr93g)**
 
-⚡ **Start without API keys.** Install with [Pinokio](https://pinokio.co/apps/github-com-bilawalsidhu-gods-eye-view) or run locally from the terminal. Add optional keys inside the app. **[→ Quick Start](#-quick-start)**
+⚡ **Start without API keys.** Install with [Pinokio](https://pinokio.co/apps/github-com-Shekhar-gods-eye-view) or run locally from the terminal. Add optional keys inside the app. **[→ Quick Start](#-quick-start)**
 
 </div>
 
@@ -106,7 +106,7 @@ app's **POWER UP** panel; [Keys & Costs](#-api-keys) explains the options.
 ### Path 1 — One click, no terminal
 
 1. Install or update [Pinokio](https://desktop.pinokio.co/) to **8.2 or later**.
-2. Open [God's Eye View in Pinokio](https://pinokio.co/apps/github-com-bilawalsidhu-gods-eye-view).
+2. Open [God's Eye View in Pinokio](https://pinokio.co/apps/github-com-Shekhar-gods-eye-view).
 3. Click **Install**, then **Start**.
 
 Available on **Windows, macOS, and Linux**. The Pinokio maintainer reports
@@ -123,7 +123,7 @@ is very choppy, before treating that as a GPU
 compatibility or minimum-hardware problem, copy the local server URL shown by
 Pinokio and open the same URL in your normal hardware-accelerated browser. One
 Pinokio 8.2.0 user reported severe stutter in Pinokio's embedded view that went
-away when the same running server was opened in an external browser ([#365](https://github.com/bilawalsidhu/gods-eye-view/issues/365)).
+away when the same running server was opened in an external browser ([#365](https://github.com/Shekhar/gods-eye-view/issues/365)).
 That points to the embedded browser rather than the app server or your
 hardware; it does not establish a minimum GPU requirement.
 
@@ -134,7 +134,7 @@ later on 26) includes the October 21, 2026 security fixes, among them
 CVE-2026-111497. The setup doctor warns about Node 25, which is end-of-life.
 
 ```bash
-git clone https://github.com/bilawalsidhu/gods-eye-view.git
+git clone https://github.com/Shekhar/gods-eye-view.git
 cd gods-eye-view
 npm ci
 npm run doctor
@@ -161,7 +161,7 @@ configured keys straight from the Keychain. It starts keyless too.
 No Node install needed; the container publishes the same dev server.
 
 ```bash
-git clone https://github.com/bilawalsidhu/gods-eye-view.git
+git clone https://github.com/Shekhar/gods-eye-view.git
 cd gods-eye-view
 docker compose up
 ```
@@ -203,7 +203,7 @@ On a NAS, clone onto the share you want the data on and use the share owner's id
 
 ```bash
 cd /volume1/docker
-git clone https://github.com/bilawalsidhu/gods-eye-view.git
+git clone https://github.com/Shekhar/gods-eye-view.git
 cd gods-eye-view
 env UID=1026 GID=100 docker compose up -d
 ```
@@ -696,7 +696,7 @@ God's Eye View runs on **public data, clear sources, and local-first execution.*
 
 **Status:** An evolving open-source client for exploration and learning — a fast, hackable foundation, not a hardened production service. Released under the **[MIT License](LICENSE)**. Bundled and live datasets carry their own terms — see **[DATA_SOURCES.md](DATA_SOURCES.md)**. Security model: **[SECURITY.md](SECURITY.md)**. Want to contribute? **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 
-**Maintainers:** [Bilawal Sidhu](https://github.com/bilawalsidhu) and [Sameh Khamis](https://github.com/samehkhamis) at [Halfpixel](https://halfpixel.ai).
+**Maintainers:** [Bilawal Sidhu](https://github.com/Shekhar) and [Sameh Khamis](https://github.com/samehkhamis) at [Halfpixel](https://halfpixel.ai).
 
 <sub>Media note: the capture GIFs on this page show Google Photorealistic 3D Tiles and live data layers, used promotionally with in-frame attribution; they aren't licensed for standalone reuse. See [media provenance and permissions](docs/media/README.md); full source terms in [DATA_SOURCES.md](DATA_SOURCES.md).</sub>
 

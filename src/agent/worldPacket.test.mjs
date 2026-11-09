@@ -213,7 +213,7 @@ function pinnedHarness() {
 }
 
 // Captured from main's get_current_view_state before the extraction
-// (bilawalsidhu/gods-eye-view@3d8e1ef0) with Date.now pinned to PINNED_NOW,
+// (Shekhar/gods-eye-view@3d8e1ef0) with Date.now pinned to PINNED_NOW,
 // minus the speech envelope. Key order is part of the contract.
 const PRE_EXTRACTION_PAYLOAD = {
   ok: true,

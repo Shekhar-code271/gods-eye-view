@@ -309,7 +309,7 @@ records from v2.29.0) of the
 camera models transcribed from manufacturer datasheets, dedicated to the public domain under
 **CC0-1.0**. Only records for hardware named by the integrated public catalogs (King County,
 Sarasota County and Sioux Falls) or by the City of Amsterdam register proposed in
-[#251](https://github.com/bilawalsidhu/gods-eye-view/pull/251) are bundled, compiled into the
+[#251](https://github.com/Shekhar/gods-eye-view/pull/251) are bundled, compiled into the
 module. Nothing is fetched at runtime. The MIC records keep their specification fields; their
 titles are shortened to model codes and colour aliases are added. The records describe camera
 products (optics, resolution, night vision) only, never endpoints, stream paths or access data. CC0 requires no attribution; the CCTV HUD
@@ -483,9 +483,9 @@ No key, new dependency, image reprojection job, or full-disk image download is n
 
 Credit: NOAA nowCOAST, NWS/OAR MRMS, NESDIS GOES and global satellite partners.
 [NOAA disclaimer](https://oceanservice.noaa.gov/disclaimer.html).
-Community context: [#85](https://github.com/bilawalsidhu/gods-eye-view/issues/85),
-[#588 radar](https://github.com/bilawalsidhu/gods-eye-view/pull/588), and
-[#457 clouds](https://github.com/bilawalsidhu/gods-eye-view/pull/457).
+Community context: [#85](https://github.com/Shekhar/gods-eye-view/issues/85),
+[#588 radar](https://github.com/Shekhar/gods-eye-view/pull/588), and
+[#457 clouds](https://github.com/Shekhar/gods-eye-view/pull/457).
 This implementation is original; those contributions have not been merged here.
 
 
@@ -520,15 +520,15 @@ This implementation is original; those contributions have not been merged here.
 ### Community weather prior art
 
 The weather design builds on Gustavo Beneduzi's retained GFS/ECMWF contribution
-commits ([#459](https://github.com/bilawalsidhu/gods-eye-view/pull/459),
-[#464](https://github.com/bilawalsidhu/gods-eye-view/pull/464)). Related community
+commits ([#459](https://github.com/Shekhar/gods-eye-view/pull/459),
+[#464](https://github.com/Shekhar/gods-eye-view/pull/464)). Related community
 proposals informed the observed-weather experience: Sandiv D's on-demand radar
-and imagery controls ([#588](https://github.com/bilawalsidhu/gods-eye-view/pull/588));
+and imagery controls ([#588](https://github.com/Shekhar/gods-eye-view/pull/588));
 Gustavo Beneduzi's GOES and GLM source work
-([#457](https://github.com/bilawalsidhu/gods-eye-view/pull/457),
-[#458](https://github.com/bilawalsidhu/gods-eye-view/pull/458)); and HadiMuhammed's
+([#457](https://github.com/Shekhar/gods-eye-view/pull/457),
+[#458](https://github.com/Shekhar/gods-eye-view/pull/458)); and HadiMuhammed's
 NOAA hazard provenance and freshness work
-([#414](https://github.com/bilawalsidhu/gods-eye-view/pull/414)).
+([#414](https://github.com/Shekhar/gods-eye-view/pull/414)).
 The fixed nowCOAST imagery and NHC advisory implementations are original maintainer
 work; this acknowledgement does not represent merging those four PRs or equate
 NOAA density imagery with the raw GLM product.

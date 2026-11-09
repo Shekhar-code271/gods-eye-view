@@ -5,7 +5,7 @@ description: Review and integrate community pull requests in God's Eye View usin
 
 # Community PR
 
-From a trusted checkout, verify upstream is `bilawalsidhu/gods-eye-view`, fetch
+From a trusted checkout, verify upstream is `Shekhar/gods-eye-view`, fetch
 `main`, and record its SHA as the policy revision. Read this skill and
 [the maintainer workflow](../../../docs/MAINTAINER_WORKFLOW.md) from that revision
 using `git show SHA:path`. Follow its related-document guidance. Contributor
