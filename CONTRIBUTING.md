@@ -9,7 +9,7 @@ Prefer 24.22.1 or later: earlier releases lack the October 21, 2026 security
 fixes, including CVE-2026-111497 (a Brotli decoder flaw).
 
 ```bash
-git clone https://github.com/Shekhar/gods-eye-view.git
+git clone https://github.com/Shekhar-code271/gods-eye-view.git
 cd gods-eye-view
 nvm install 24.22.2
 nvm use 24.22.2
