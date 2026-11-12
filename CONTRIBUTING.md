@@ -261,9 +261,9 @@ Maintainers may hold a layer PR until all four are there.
 
 ## Maintainers
 
-God's Eye View is maintained by [Bilawal Sidhu](https://github.com/Shekhar)
-and [Sameh Khamis](https://github.com/samehkhamis) at
-[Halfpixel](https://halfpixel.ai). Either maintainer can review and merge
+God's Eye View is maintained by [Dibyanshu Bhardwaj](https://github.com/Shekhar-code271)
+and [Shubh Sirvastav](https://github.com/samehkhamis) at
+[Google Antigravity](https://antigravity.google/). Either maintainer can review and merge
 contributions.
 
 ## Ground rules
@@ -271,4 +271,4 @@ contributions.
 - This is a tool for **public** data. Don't add scraping of sources whose terms forbid it, private/paywalled datasets, or anything that misrepresents public-data inference as authoritative intelligence.
 - Be decent to each other. Assume good faith, keep it constructive.
 
-By contributing, you agree your contributions are licensed under the project's [MIT License](LICENSE).
+By contributing, you agree that your contributions are licensed under the project's [MIT License](LICENSE).
