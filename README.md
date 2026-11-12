@@ -542,7 +542,7 @@ By default nobody else can reach your server — it binds to localhost. To share
 Provider Settings is disabled when the server is shared, so remote users cannot
 access the key-entry panel.
 
-**Pinokio LAN and Cloudflare sharing remain disabled for this launcher.** Use
+**Pinokio LAN and Cloudflare sharing remain disabled for this launcher. **** Use
 a separately reviewed authentication proxy if remote access is required.
 [SECURITY.md](SECURITY.md) explains the restrictions and threat model.
 
@@ -558,13 +558,13 @@ God's Eye View runs on **public data, clear sources, and local-first execution.*
 
 **Status:** An evolving open-source client for exploration and learning — a fast, hackable foundation, not a hardened production service. Released under the **[MIT License](LICENSE)**. Bundled and live datasets carry their own terms — see **[DATA_SOURCES.md](DATA_SOURCES.md)**. Security model: **[SECURITY.md](SECURITY.md)**. Want to contribute? **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 
-**Maintainers:** [Bilawal Sidhu](https://github.com/Shekhar) and [Sameh Khamis](https://github.com/samehkhamis) at [Halfpixel](https://halfpixel.ai).
+**Maintainers:** [Dibyanshu Bhardwaj](https://github.com/Shekhar-code271) and [Shubh Sirvastav] at [Google Antigravity](https://antigravity.google).
 
 <sub>Media note: the capture GIFs on this page show Google Photorealistic 3D Tiles and live data layers, used promotionally with in-frame attribution; they aren't licensed for standalone reuse. See [media provenance and permissions](docs/media/README.md); full source terms in [DATA_SOURCES.md](DATA_SOURCES.md).</sub>
 
 > [!IMPORTANT]
-> God's Eye View is an exploratory visualization of public and third-party data.
-> Data may be delayed, incomplete, modeled, inferred, or wrong. Do not use it
+> God's Eye View is an exploratory visualisation of public and third-party data.
+> Data may be delayed, incomplete, modelled, inferred, or wrong. Do not use it
 > for flight or maritime navigation, emergency response, medical or health
 > decisions, investment decisions, or other safety-critical or operational
 > purposes. Verify important information with authoritative sources.
