@@ -4,39 +4,13 @@
 
 [![CI](https://github.com/Shekhar/gods-eye-view/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Shekhar/gods-eye-view/actions/workflows/ci.yml) [![Reached #1 on GitHub Trending](https://img.shields.io/badge/%231_GitHub_Trending-thank_you!-F0A63C?style=flat-square&logo=github)](https://x.com/Shekhar/status/2093798887815348521)
 
-### A spy-satellite simulator in your browser — then you realize the sources are public and the data is real.
+### A spy-satellite simulator in your browser — then you realise the sources are public and the data is real.
 
-Photorealistic 3D globe. Live aircraft, ships, satellites, earthquakes, traffic, and public cameras. Hands-free voice control powered by a realtime AI agent.
+Photorealistic 3D globe. Live aircraft, ships, satellites, earthquakes, traffic, and public cameras. Hands-free voice control powered by a real-time AI agent.
 
 _No place left behind._
 
 ![Orbital HUD, a tracked live globe, FLIR terrain — then OPEN SOURCED](docs/media/hero-open-source-reveal.gif)
-
-<a href="https://www.youtube.com/@Shekhar">
-  <img src="docs/media/youtube-popular-videos.png" alt="The God's Eye View video series on YouTube" width="100%">
-</a>
-
-▶️ **From the project behind the viral God's Eye View series** _(formerly WorldView)_ — [5M+ on YouTube](https://youtube.com/playlist?list=PL6qSg2I-7_koPbDnSMo0QeeHX_RknA2uv&si=nBGYMoHWQw41v93Q) · [25M+ across socials](https://www.google.com/search?q=god%27s+eye+view)
-
-🏆 **Reached #1 on GitHub Trending, daily and weekly · August 2026**
-
-**[#8 Product of the Day](https://www.producthunt.com/products/god-s-eye-view?launch=god-s-eye-view)** · Hunted by Chris Messina, creator of the hashtag
-
-_“pretty cool”_ — [Brendan Eich](https://x.com/BrendanEich/status/2094592096401490266), creator of JavaScript and co-founder of Mozilla and Brave · Featured on **[Pinokio](https://pinokio.co/posts/01m1m4p9xxm3qw7dnnpj2wr93g)**
-
-⚡ **Start without API keys.** Install with [Pinokio](https://pinokio.co/apps/github-com-Shekhar-gods-eye-view) or run locally from the terminal. Add optional keys inside the app. **[→ Quick Start](#-quick-start)**
-
-</div>
-
----
-
-<div align="center">
-
-**[Quick Start](#-quick-start) · [First Five Minutes](#-the-first-five-minutes) · [Talk to It](#-talk-to-it) · [What's Live](#-whats-on-the-globe) · [Under the Hood](#-under-the-hood) · [Keys & Costs](#-api-keys) · [Contributing](CONTRIBUTING.md)**
-
-</div>
-
----
 
 ## 🌍 Why This Exists
 
@@ -78,14 +52,6 @@ Start with the included data sources, then add your own. Each layer is a separat
 - **🌊 Nepal flood scene:** Replay the Bhote Koshi flood: flood path, witness sources and before-and-after imagery (bundled data is non-commercial; see [DATA_SOURCES.md](DATA_SOURCES.md)).
 
 ---
-
-<div align="center">
-
-[![YouTube video about the God's Eye View open source release](https://img.youtube.com/vi/GRJaKcXZS94/maxresdefault.jpg)](https://www.youtube.com/watch?v=GRJaKcXZS94)
-
-▶️ **[The full walkthrough of everything below, on YouTube](https://www.youtube.com/watch?v=GRJaKcXZS94)**
-
-</div>
 
 ## ⚡ Quick Start
 
