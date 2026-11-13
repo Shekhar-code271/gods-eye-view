@@ -72,7 +72,7 @@ app's **POWER UP** panel; [Keys & Costs](#-api-keys) explains the options.
 ### Path 1 — One click, no terminal
 
 1. Install or update [Pinokio](https://desktop.pinokio.co/) to **8.2 or later**.
-2. Open [God's Eye View in Pinokio](https://pinokio.co/apps/github-com-Shekhar-gods-eye-view).
+2. Open [God's Eye View in Pinokio](https://pinokio.co/apps/github-com-Shekhar-code271-gods-eye-view).
 3. Click **Install**, then **Start**.
 
 Available on **Windows, macOS, and Linux**. The Pinokio maintainer reports
@@ -81,15 +81,14 @@ locked dependencies, finds a free local port, and opens the app in your system
 browser. The Server menu item keeps the launcher console available.
 
 **Tried before and installation failed?** Update Pinokio and try again.
-Version 8.2 fixes the launcher installation issue;
-[details from the Pinokio maintainer](https://pinokio.co/posts/01m1m4p9xxm3qw7dnnpj2wr93g).
+Version 8.2 fixes the launcher installation issue.
 
 **Using an older launcher or opening the embedded view manually?** If the globe
 is very choppy, before treating that as a GPU
 compatibility or minimum-hardware problem, copy the local server URL shown by
 Pinokio and open the same URL in your normal hardware-accelerated browser. One
 Pinokio 8.2.0 user reported severe stutter in Pinokio's embedded view that went
-away when the same running server was opened in an external browser ([#365](https://github.com/Shekhar/gods-eye-view/issues/365)).
+away when the same running server was opened in an external browser ([#365](https://github.com/Shekhar-code271/gods-eye-view/issues/365)).
 That points to the embedded browser rather than the app server or your
 hardware; it does not establish a minimum GPU requirement.
 
@@ -100,7 +99,7 @@ later on 26) includes the October 21, 2026 security fixes, among them
 CVE-2026-111497. The setup doctor warns about Node 25, which is end-of-life.
 
 ```bash
-git clone https://github.com/Shekhar/gods-eye-view.git
+git clone https://github.com/Shekhar-code271/gods-eye-view.git
 cd gods-eye-view
 npm ci
 npm run doctor
@@ -127,7 +126,7 @@ configured keys straight from the Keychain. It starts keyless too.
 No Node install needed; the container publishes the same dev server.
 
 ```bash
-git clone https://github.com/Shekhar/gods-eye-view.git
+git clone https://github.com/Shekhar-code271/gods-eye-view.git
 cd gods-eye-view
 docker compose up
 ```
@@ -169,7 +168,7 @@ On a NAS, clone onto the share you want the data on and use the share owner's id
 
 ```bash
 cd /volume1/docker
-git clone https://github.com/Shekhar/gods-eye-view.git
+git clone https://github.com/Shekhar-code271/gods-eye-view.git
 cd gods-eye-view
 env UID=1026 GID=100 docker compose up -d
 ```
@@ -178,7 +177,7 @@ Keep the `env`: bash treats `UID` as read-only, so a plain `UID=1026` in front o
 
 On SELinux hosts (Fedora, RHEL), compose mounts the checkout with `:z` so the container may read it; Docker may relabel the checkout for container access, which can take a moment on a large checkout. Without that, the start fails with `Cannot find module '/app/scripts/docker-start.mjs'`.
 
-Behind a reverse proxy, put your keys in `.env` or pass them as environment variables - Provider Settings refuses proxied requests on purpose - and add the hostname you serve it on, for example `GEV_ALLOWED_HOSTS=globe.example.lan` (see [Sharing an instance](#-sharing-an-instance)). The map routes compare the browser's `Origin` with the `Host` the server sees, so the proxy must pass the original `Host` and, when it terminates TLS, `X-Forwarded-Proto`. Caddy does both by default; for nginx add `proxy_set_header Host $http_host;`, `proxy_set_header X-Forwarded-Proto $scheme;` and `proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;`. On an install outside Docker, that forwarding header also rate-limits the proxy's users apart from your own browser. Under the default Docker bridge network every client on the host, your browser included, reaches the container from its gateway address and shares one Overpass bucket.
+Behind a reverse proxy, put your keys in `.env` or pass them as environment variables - Provider Settings refuses proxied requests on purpose - and add the hostname you serve it on, for example `GEV_ALLOWED_HOSTS=globe.example.lan` (see [Sharing an instance](#-sharing-an-instance)). The map routes compare the browser's `Origin` with the `Host` the server sees, so the proxy must pass the original `Host` and, when it terminates TLS, `X-Forwarded-Proto`. Caddy does both by default; for nginx add `proxy_set_header Host $http_host;`, `proxy_set_header X-Forwarded-Proto $scheme;` and `proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;`. On an install outside Docker, that forwarding header also rate-limits the proxy's users apart from your own browser. Under the default Docker bridge network, every client on the host, your browser included, reaches the container from its gateway address and shares one Overpass bucket.
 
 </details>
 
@@ -558,7 +557,7 @@ God's Eye View runs on **public data, clear sources, and local-first execution.*
 
 **Status:** An evolving open-source client for exploration and learning — a fast, hackable foundation, not a hardened production service. Released under the **[MIT License](LICENSE)**. Bundled and live datasets carry their own terms — see **[DATA_SOURCES.md](DATA_SOURCES.md)**. Security model: **[SECURITY.md](SECURITY.md)**. Want to contribute? **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 
-**Maintainers:** [Dibyanshu Bhardwaj](https://github.com/Shekhar-code271) and [Shubh Sirvastav] at [Google Antigravity](https://antigravity.google).
+**Maintainers:** [Dibyanshu Bhardwaj](https://github.com/Shekhar-code271) and [Anukalp Sirvastav] at [Google Antigravity](https://antigravity.google).
 
 <sub>Media note: the capture GIFs on this page show Google Photorealistic 3D Tiles and live data layers, used promotionally with in-frame attribution; they aren't licensed for standalone reuse. See [media provenance and permissions](docs/media/README.md); full source terms in [DATA_SOURCES.md](DATA_SOURCES.md).</sub>
 
@@ -576,8 +575,6 @@ God's Eye View runs on **public data, clear sources, and local-first execution.*
 ---
 
 <div align="center">
-
-· 📬 [Map the World](https://maptheworld.ai/) — the newsletter behind the project
 
 **🌐 God's Eye View. No place left behind.**
 
